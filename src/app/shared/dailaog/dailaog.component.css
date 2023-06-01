@@ -1,0 +1,21 @@
+.matHeader{
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+p:last-child{
+    margin-bottom: 0;
+}
+
+.lastFild{
+    margin-bottom: 0;
+}
+
+.matAction{
+    margin-top: -20px;
+    padding-top: 0;
+}
+
+input{
+    width: 100% !important;
+}

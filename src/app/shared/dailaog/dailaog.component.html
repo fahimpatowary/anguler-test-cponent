@@ -1,0 +1,42 @@
+<div style="margin-bottom: '30px'; width: 100%">
+  <button mat-icon-button style="float: right; margin: 5px" mat-dialog-close="">
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
+
+<mat-dialog-content>
+  <header class="matHeader">
+    <h1>Contact Us</h1>
+  </header>
+
+  <p>
+    <mat-form-field>
+      <!-- <input  matInput placeholder="Name"> -->
+      <mat-label>Name</mat-label>
+      <input matInput />
+      <mat-icon matSuffix> person </mat-icon>
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field>
+      <!-- <input  matInput placeholder="Email"> -->
+      <mat-label>Email</mat-label>
+      <input matInput />
+      <mat-icon matSuffix> drafts </mat-icon>
+    </mat-form-field>
+  </p>
+
+  <p>
+    <mat-form-field class="lastFild">
+      <mat-label>Type Your Massage</mat-label>
+      <textarea matInput></textarea>
+      <mat-icon matSuffix> save </mat-icon>
+    </mat-form-field>
+  </p>
+</mat-dialog-content>
+
+<mat-dialog-actions align="end" class="matAction">
+  <button mat-raised-button color="primary">Sent</button>
+  <button mat-raised-button color="warn" mat-dialog-close="">Cancel</button>
+</mat-dialog-actions>
